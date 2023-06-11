@@ -1,0 +1,13 @@
+n1 = input('Digite um numero ')
+n2 = input('Digite um segundo numero ')
+print('A soma é ', float(n1) + float(n2))
+print('---de outro jeito---')
+n3 = int(input('Digite um numero '))
+n4 = int(input('Digite outro numero '))
+print('A soma é', n3+n4)
+print('---de outro jeito---')
+n5 = int(input('Digite um numero '))
+n6 = int(input('Digite outro numero '))
+sum = int(n5+n6)
+print('A soma de {} + {} é {}'.format(n5, n6, sum))
+
